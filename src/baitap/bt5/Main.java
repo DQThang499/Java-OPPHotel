@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Hotel hotel = new Hotel();
         while (true){
-		System.out.print("chào mừng bạn đến với Khách sạn của chúng tôi");
+		System.out.println("chào mừng bạn đến với Khách sạn của chúng tôi");
             System.out.println("1 : thêm ");
             System.out.println("2 : xóa ");
             System.out.println("3 : tính ");
