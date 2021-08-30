@@ -10,6 +10,7 @@ public class Main {
         Hotel hotel = new Hotel();
         while (true){
 		System.out.println("chào mừng bạn đến với Khách sạn của chúng tôi");
+		System.out.println("Xin hãy chọn yêu cầu để xác thực thông tin");
             System.out.println("1 : thêm ");
             System.out.println("2 : xóa ");
             System.out.println("3 : tính ");
