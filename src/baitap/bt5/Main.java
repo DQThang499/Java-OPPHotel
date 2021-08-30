@@ -16,6 +16,7 @@ public class Main {
             System.out.println("3 : tính ");
             System.out.println("4 : sửa ");
             System.out.println("5 : thoát ");
+            System.out.println("6 : Đánh giá khách sạn");
             String line = scanner.nextLine();
             switch (line){
                 case "1": {
@@ -67,6 +68,11 @@ public class Main {
                 }
                 case "5":{
                     return;
+                }
+                case "6":{
+                    System.out.println("nhập đánh giá: ");
+                    String danhgia = scanner.nextLine();
+                    break;
                 }
                 default:
                     System.out.println("Invalid");
