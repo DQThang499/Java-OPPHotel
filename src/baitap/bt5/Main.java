@@ -72,6 +72,7 @@ public class Main {
                 case "6":{
                     System.out.println("nhập đánh giá: ");
                     String danhgia = scanner.nextLine();
+			System.out.println("hẹn gặp lại quý khách");
                     break;
                 }
                 default:
